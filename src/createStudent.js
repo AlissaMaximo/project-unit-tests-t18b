@@ -18,11 +18,9 @@
 const createStudent = (nameString) => {
   let student = {
     name: nameString,
-    feedback: () => 'Eita pessoa boa!'
+    feedback: () => 'Eita pessoa boa!',
   };
   return student;
 };
-
-const estudante = createStudent('Leandrão, o Lobo Solitário')
 
 module.exports = createStudent;

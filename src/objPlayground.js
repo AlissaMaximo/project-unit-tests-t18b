@@ -49,7 +49,7 @@ const calculator = (number1, number2) => {
     sum,
     mult,
     div,
-    sub
+    sub,
   };
   return calculations;
 };
@@ -67,6 +67,7 @@ const arrayGenerator = (type, object) => {
     case 'entries':
       array = Object.entries(object);
     break;
+    default:
   }
   return array;
 };
